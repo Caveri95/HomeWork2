@@ -56,6 +56,7 @@ public class Main {
         totalEmployee = totalEmployee + 94;
         var hourWork = totalEmployee*8;
         System.out.println("Если в компании работает " + totalEmployee + " человека, то всего " + hourWork + " часов работы может быть поделено между сотрудниками");
+        System.out.println(1);
 
 
 
