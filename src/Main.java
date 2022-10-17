@@ -31,6 +31,37 @@ public class Main {
         System.out.println("Задача 5");
         var frog = 3.5;
         System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog/3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+        System.out.println("Задача 6");
+        var fighterFirst = 78.2;
+        var fighterSecond = 82.7;
+        var sumWeight = fighterFirst + fighterSecond;
+        System.out.println(sumWeight);
+        var differentWeight = fighterSecond - fighterFirst;
+        System.out.println(differentWeight);
+        System.out.println("Задача 7");
+        var differentWeight1 = fighterSecond - fighterFirst;
+        System.out.println(differentWeight1);
+        var differentWeight2 = fighterSecond%fighterFirst;
+        System.out.println(differentWeight2);
+        System.out.println("Задача 8");
+        var totalHour = 640;
+        var totalEmployee = totalHour/8;
+        System.out.println("Всего работников в компании - " + totalEmployee + " человек");
+        totalEmployee = totalEmployee + 94;
+        var hourWork = totalEmployee*8;
+        System.out.println("Если в компании работает " + totalEmployee + " человека, то всего " + hourWork + " часов работы может быть поделено между сотрудниками");
+
+
+
+
+
+
 
 
     }
